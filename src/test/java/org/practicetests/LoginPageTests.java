@@ -24,7 +24,7 @@ public class LoginPageTests extends Base {
 	public void verifyHomeFunctionality() {
 		PracticePage practicePage = new PracticePage(driver);
 		HomePage homePage = new HomePage(driver);
-		LoginPage loginPage=new LoginPage(driver);
+		LoginPage loginPage = new LoginPage(driver);
 		practicePage.clickOnHomeButton();
 		homePage.clickOnLoginButton();
 		Assert.assertTrue(loginPage.usernameField().isEnabled());
