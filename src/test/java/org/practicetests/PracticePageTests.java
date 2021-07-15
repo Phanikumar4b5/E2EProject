@@ -6,11 +6,13 @@ import org.apache.log4j.*;
 import org.base.Base;
 import org.openqa.selenium.WebDriver;
 import org.pageobjects.PracticePage;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class PracticePageTests extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 	public Logger log = Logger.getLogger("");
 	@BeforeMethod
 	public void setup() throws IOException {
@@ -20,12 +22,13 @@ public class PracticePageTests extends Base {
 	}
 
 	@Test
-	public void verifyHomeFunctionality() {
+	public void verifyRadioButtons() {
 		PracticePage homePage = new PracticePage(driver);
 		homePage.getNumberOfRadioButtons();
+		Assert.assertTrue(false);
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}

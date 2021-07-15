@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13685" started-at="2021-07-15T16:27:38 IST" finished-at="2021-07-15T16:27:51 IST">
+  <suite name="Default suite" duration-ms="18482" started-at="2021-07-15T20:01:50 IST" finished-at="2021-07-15T20:02:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13685" started-at="2021-07-15T16:27:38 IST" finished-at="2021-07-15T16:27:51 IST">
-      <class name="org.practicetests.PracticePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.PracticePageTests@42d8062c]" name="setup" is-config="true" duration-ms="11452" started-at="2021-07-15T16:27:38 IST" finished-at="2021-07-15T16:27:49 IST">
+    <test name="Default test" duration-ms="18482" started-at="2021-07-15T20:01:50 IST" finished-at="2021-07-15T20:02:08 IST">
+      <class name="org.practicetests.HomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.HomePageTests@480bdb19]" name="setup" is-config="true" duration-ms="10305" started-at="2021-07-15T20:01:50 IST" finished-at="2021-07-15T20:02:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.PracticePageTests@42d8062c]" name="verifyHomeFunctionality" duration-ms="1111" started-at="2021-07-15T16:27:49 IST" finished-at="2021-07-15T16:27:50 IST">
+        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.HomePageTests@480bdb19]" name="verifyHomeFunctionality" duration-ms="7338" started-at="2021-07-15T20:02:00 IST" finished-at="2021-07-15T20:02:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.PracticePageTests@42d8062c]" name="tearDown" is-config="true" duration-ms="1066" started-at="2021-07-15T16:27:50 IST" finished-at="2021-07-15T16:27:51 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.HomePageTests@480bdb19]" name="tearDown" is-config="true" duration-ms="790" started-at="2021-07-15T20:02:08 IST" finished-at="2021-07-15T20:02:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.practicetests.PracticePageTests -->
+      </class> <!-- org.practicetests.HomePageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

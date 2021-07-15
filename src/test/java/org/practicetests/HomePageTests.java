@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HomePageTests extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeMethod
 	public void setup() throws IOException {

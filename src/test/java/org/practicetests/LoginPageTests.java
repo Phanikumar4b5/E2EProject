@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginPageTests extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeMethod
 	public void setup() throws IOException {
@@ -21,7 +21,7 @@ public class LoginPageTests extends Base {
 	}
 
 	@Test
-	public void verifyHomeFunctionality() {
+	public void verifyLoginPage() {
 		PracticePage practicePage = new PracticePage(driver);
 		HomePage homePage = new HomePage(driver);
 		LoginPage loginPage = new LoginPage(driver);
@@ -30,7 +30,7 @@ public class LoginPageTests extends Base {
 		Assert.assertTrue(loginPage.usernameField().isEnabled());
 		Assert.assertTrue(loginPage.passwordField().isEnabled());
 		Assert.assertTrue(loginPage.loginButton().isEnabled());
-		Assert.assertEquals(loginPage.loginPageDescription().getText(), "Log in to Rahul Shetty Academy123");
+		Assert.assertEquals(loginPage.loginPageDescription().getText(), "Log in to Rahul Shetty Academy");
 	}
 
 	@AfterMethod

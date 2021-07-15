@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="58082" started-at="2021-07-15T09:17:33Z" finished-at="2021-07-15T09:18:31Z">
+  <suite name="Suite" duration-ms="56337" started-at="2021-07-15T12:39:57Z" finished-at="2021-07-15T12:40:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="58082" started-at="2021-07-15T09:17:33Z" finished-at="2021-07-15T09:18:31Z">
+    <test name="Test" duration-ms="56337" started-at="2021-07-15T12:39:57Z" finished-at="2021-07-15T12:40:53Z">
       <class name="org.practicetests.LoginPageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.LoginPageTests@1da2cb77]" name="setup" is-config="true" duration-ms="14214" started-at="2021-07-15T09:17:33Z" finished-at="2021-07-15T09:17:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.LoginPageTests@13acb0d1]" name="setup" is-config="true" duration-ms="10602" started-at="2021-07-15T12:39:57Z" finished-at="2021-07-15T12:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.LoginPageTests@1da2cb77]" name="verifyHomeFunctionality" duration-ms="9137" started-at="2021-07-15T09:17:48Z" finished-at="2021-07-15T09:17:57Z">
+        <test-method status="FAIL" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.LoginPageTests@13acb0d1]" name="verifyHomeFunctionality" duration-ms="7932" started-at="2021-07-15T12:40:08Z" finished-at="2021-07-15T12:40:15Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Log in to Rahul Shetty Academy123] but found [Log in to Rahul Shetty Academy]]]>
@@ -24,7 +24,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at org.practicetests.LoginPageTests.verifyHomeFunctionality(LoginPageTests.java:33)
+at org.practicetests.LoginPageTests.verifyHomeFunctionality(LoginPageTests.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,38 +59,38 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.LoginPageTests@1da2cb77]" name="tearDown" is-config="true" duration-ms="846" started-at="2021-07-15T09:17:57Z" finished-at="2021-07-15T09:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- org.practicetests.LoginPageTests -->
       <class name="org.practicetests.HomePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.HomePageTests@48f278eb]" name="setup" is-config="true" duration-ms="11588" started-at="2021-07-15T09:17:58Z" finished-at="2021-07-15T09:18:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.HomePageTests@3e3047e6]" name="setup" is-config="true" duration-ms="10693" started-at="2021-07-15T12:40:16Z" finished-at="2021-07-15T12:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.HomePageTests@48f278eb]" name="verifyHomeFunctionality" duration-ms="9236" started-at="2021-07-15T09:18:09Z" finished-at="2021-07-15T09:18:18Z">
+        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.HomePageTests@3e3047e6]" name="verifyHomeFunctionality" duration-ms="7828" started-at="2021-07-15T12:40:26Z" finished-at="2021-07-15T12:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.HomePageTests@48f278eb]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-07-15T09:18:18Z" finished-at="2021-07-15T09:18:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.HomePageTests@3e3047e6]" name="tearDown" is-config="true" duration-ms="2915" started-at="2021-07-15T12:40:48Z" finished-at="2021-07-15T12:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.LoginPageTests@13acb0d1]" name="tearDown" is-config="true" duration-ms="1184" started-at="2021-07-15T12:40:51Z" finished-at="2021-07-15T12:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.PracticePageTests@37e547da]" name="tearDown" is-config="true" duration-ms="1087" started-at="2021-07-15T12:40:52Z" finished-at="2021-07-15T12:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.practicetests.HomePageTests -->
       <class name="org.practicetests.PracticePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.PracticePageTests@2f217633]" name="setup" is-config="true" duration-ms="10718" started-at="2021-07-15T09:18:19Z" finished-at="2021-07-15T09:18:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.practicetests.PracticePageTests@37e547da]" name="setup" is-config="true" duration-ms="12823" started-at="2021-07-15T12:40:34Z" finished-at="2021-07-15T12:40:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.PracticePageTests@2f217633]" name="verifyHomeFunctionality" duration-ms="730" started-at="2021-07-15T09:18:30Z" finished-at="2021-07-15T09:18:31Z">
+        <test-method status="PASS" signature="verifyHomeFunctionality()[pri:0, instance:org.practicetests.PracticePageTests@37e547da]" name="verifyHomeFunctionality" duration-ms="1218" started-at="2021-07-15T12:40:47Z" finished-at="2021-07-15T12:40:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.practicetests.PracticePageTests@2f217633]" name="tearDown" is-config="true" duration-ms="800" started-at="2021-07-15T09:18:31Z" finished-at="2021-07-15T09:18:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- org.practicetests.PracticePageTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
