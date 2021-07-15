@@ -8,14 +8,13 @@ import org.pageobjects.HomePage;
 import org.pageobjects.LoginPage;
 import org.pageobjects.PracticePage;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import org.testng.annotations.Test;
 
 public class LoginPageTests extends Base {
 	public WebDriver driver;
 
-	@BeforeMethod
+	@BeforeTest
 	public void setup() throws IOException {
 		driver = initializeDriver();
 	}
@@ -33,7 +32,7 @@ public class LoginPageTests extends Base {
 		Assert.assertEquals(loginPage.loginPageDescription().getText(), "Log in to Rahul Shetty Academy123");
 	}
 
-	@AfterMethod
+	@AfterTest
 	public void tearDown() {
 		driver.quit();
 	}

@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="tests">
 <listeners>
 <listener class-name="org.listners.Listners"/>
-<!-- <listener class-name="org.listners.AnnotationTransformer"/> -->
+<listener class-name="org.listners.AnnotationTransformer"/>
 </listeners>
   <test thread-count="5" name="Verify login pafe test of Rahul shetty academy">
     <classes>
