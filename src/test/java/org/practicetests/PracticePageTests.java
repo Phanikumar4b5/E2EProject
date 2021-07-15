@@ -25,7 +25,6 @@ public class PracticePageTests extends Base {
 	public void verifyRadioButtons() {
 		PracticePage homePage = new PracticePage(driver);
 		homePage.getNumberOfRadioButtons();
-		Assert.assertTrue(false);
 	}
 
 	@AfterMethod

@@ -30,7 +30,7 @@ public class LoginPageTests extends Base {
 		Assert.assertTrue(loginPage.usernameField().isEnabled());
 		Assert.assertTrue(loginPage.passwordField().isEnabled());
 		Assert.assertTrue(loginPage.loginButton().isEnabled());
-		Assert.assertEquals(loginPage.loginPageDescription().getText(), "Log in to Rahul Shetty Academy");
+		Assert.assertEquals(loginPage.loginPageDescription().getText(), "Log in to Rahul Shetty Academy123");
 	}
 
 	@AfterMethod

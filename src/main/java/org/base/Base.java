@@ -47,11 +47,12 @@ public class Base {
 		}
 	}
 
-	public void takeScreenshot(String methodName, WebDriver driver) throws IOException {
+	public String takeScreenshot(String methodName, WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		String destinationPath = System.getProperty("user.dir") + "//reports//" + methodName + ".png";
 		FileUtils.copyFile(source, new File(destinationPath));
+		return destinationPath;
 	}
 
 }

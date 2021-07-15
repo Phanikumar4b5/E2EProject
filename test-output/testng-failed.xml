@@ -4,26 +4,15 @@
   <listeners>
     <listener class-name="org.listners.Listners"/>
   </listeners>
-  <test thread-count="5" name="Checking radio button is wokring in Practice page(failed)" parallel="tests">
+  <test thread-count="5" name="Verify login pafe test of Rahul shetty academy(failed)" parallel="tests">
     <classes>
-      <class name="org.practicetests.PracticePageTests">
+      <class name="org.practicetests.LoginPageTests">
         <methods>
+          <include name="verifyLoginPage"/>
           <include name="tearDown"/>
-          <include name="verifyRadioButtons"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- org.practicetests.PracticePageTests -->
+      </class> <!-- org.practicetests.LoginPageTests -->
     </classes>
-  </test> <!-- Checking radio button is wokring in Practice page(failed) -->
-  <test thread-count="5" name="Checking home button is working in practice page(failed)" parallel="tests">
-    <classes>
-      <class name="org.practicetests.HomePageTests">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verifyHomeFunctionality"/>
-        </methods>
-      </class> <!-- org.practicetests.HomePageTests -->
-    </classes>
-  </test> <!-- Checking home button is working in practice page(failed) -->
+  </test> <!-- Verify login pafe test of Rahul shetty academy(failed) -->
 </suite> <!-- Failed suite [Suite] -->
